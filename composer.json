@@ -1,0 +1,19 @@
+{
+    "name": "capitalwpcli/examplecommand",
+    "description": "cli example",
+    "type": "wp-cli-package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gabor Javorszky",
+            "email": "gabor@javorszky.co.uk"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": [ "command.php" ]
+    },
+    "require": {
+        "wp-cli/wp-cli": "^1.1.0"
+    }
+}
